@@ -30,7 +30,7 @@ Bu proje, derin öğrenme model geliştirme sürecinin deneysel ve analitik yön
 Proje süresince farklı mimari ve eğitim stratejileri test edilmiştir.
 
 <p align="center">
-  <img src="images/data.png" width="800" alt="MNIST Data Sample">
+  <img src="assets/table.png" width="700" alt="MNIST Data Sample">
 </p>
 
 ---
@@ -90,7 +90,7 @@ Overfitting gözlemlenmemiştir.
 ReduceLROnPlateau validation loss’un durakladığı noktada öğrenme oranını düşürerek performansı stabilize etmiştir.
 
 <p align="center">
-  <img src="images/confusion_matrix.png" width="500">
+  <img src="assets/accuracy.png" width="600">
 </p>
 
 <br>
@@ -106,7 +106,7 @@ Train ve validation loss arasında büyük ayrışma bulunmamaktadır.
 Model genelleme kabiliyetini korumuştur.
 
 <p align="center">
-  <img src="images/confusion_matrix.png" width="500">
+  <img src="assets/loss.png" width="600">
 </p>
 
 <br>
@@ -122,7 +122,7 @@ False Positive ve False Negative oranları kabul edilebilir seviyededir.
 Model gerçek dünya verisinde kullanılabilir seviyede performans göstermektedir.
 
 <p align="center">
-  <img src="images/confusion_matrix.png" width="500">
+  <img src="assets/cm.png" width="600">
 </p>
 
 <br>
